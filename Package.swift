@@ -33,5 +33,12 @@ let package = Package(
                 .product(name: "SwiftSyntax", package: "swift-syntax"),
                 .product(name: "SwiftSyntaxMacros", package: "swift-syntax"),
             ]),
+        
+        // MARK: - Tests
+        .testTarget(
+            name: "NavigatorTests",
+            dependencies: [
+                "Navigator",
+            ]),
     ]
 )
