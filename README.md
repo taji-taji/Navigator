@@ -206,7 +206,10 @@ public func viewProvider(destination: any NavigationDestination) -> some View {
 
 #### with `NavigationLink`
 
-```
+```swift
+import SwiftUI
+import Navigator
+
 @Navigatable
 public struct ContentView: View {
     public enum Destination: NavigationDestination {
