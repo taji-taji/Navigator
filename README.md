@@ -2,6 +2,14 @@
 
 `Navigator` is a `Router` library for SwiftUI.
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ftaji-taji%2FNavigator%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/taji-taji/Navigator)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Ftaji-taji%2FNavigator%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/taji-taji/Navigator)  
+![](https://img.shields.io/badge/iOS-16.0+-brightgreen)
+![](https://img.shields.io/badge/macOS-13.0+-brightgreen)
+![](https://img.shields.io/badge/tvOS-16.0+-brightgreen)
+![](https://img.shields.io/badge/visionOS-1.0+-brightgreen)
+![](https://img.shields.io/badge/watchOS-9.0+-brightgreen)
+
 ## Feature
 
 It supports the implementation of routing that is independent between features in a modularized application by feature.
@@ -90,7 +98,7 @@ public struct View1: View, Navigatable /* ⭐️ 2️⃣ - Conform to the `Navig
         case view2
         case view3(fromView: String)
     }
-    // ⭐️ 4️⃣ - Implement a `navigator` property that conforms to the `NavigationDestination` protocol.
+    // ⭐️ 4️⃣ - Implement a `navigator` property that conforms to the `Navigatable` protocol.
     @EnvironmentObject public var navigator: Navigator
 
     public init() {}
