@@ -1,4 +1,4 @@
-# 🚗 Navigator (for SwiftUI)
+# 🚗 Navigator (for SwiftUI x Multiple Modules)
 
 `Navigator` is a `Router` library for SwiftUI.
 
